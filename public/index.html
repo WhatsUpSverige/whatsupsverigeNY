@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Whatsup Sverige</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <img id="logo" src="/logos/whatsupsverige-logo.svg" alt="Whatsup Sverige" height="50">
+    <h1>Whatsup Sverige</h1>
+  </header>
+
+  <main>
+    <section class="search-section">
+      <h2>Sök efter din stad</h2>
+      <input type="text" id="city-search-input" placeholder="Ange din stad...">
+      <button onclick="handleCitySearch()">Sök</button>
+    </section>
+
+    <section id="city-message" style="display:none; margin-top: 20px;"></section>
+
+    <section id="events-list">
+      <!-- Här kommer eventlistan visas i framtiden -->
+    </section>
+  </main>
+
+  <footer>
+    <p>Co-created with ❤️ by Whatsup Sverige & ChatGPT</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

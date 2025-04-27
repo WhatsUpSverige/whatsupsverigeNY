@@ -1,0 +1,76 @@
+:root {
+    --primary-color: #005BAC; /* Sveriges blå som standard */
+    --secondary-color: #FFD500; /* Sveriges gul som standard */
+    --font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    font-family: var(--font-family);
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+  }
+  
+  header {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header img {
+    display: block;
+    margin: 0 auto 10px;
+  }
+  
+  main {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .search-section {
+    margin-bottom: 20px;
+  }
+  
+  #city-search-input {
+    padding: 10px;
+    width: 250px;
+    font-size: 16px;
+    margin-right: 10px;
+    border: 2px solid var(--primary-color);
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #004080; /* lite mörkare blå vid hover */
+  }
+  
+  #city-message {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #fff3cd; /* ljusgul för meddelanderuta */
+    border: 1px solid #ffeeba;
+    padding: 15px;
+    border-radius: 8px;
+    color: #856404;
+    text-align: left;
+  }
+  
+  footer {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    text-align: center;
+  }
+  
